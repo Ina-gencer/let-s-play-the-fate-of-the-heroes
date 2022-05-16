@@ -1,0 +1,241 @@
+body {
+    background-image: url(cover.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 0%, 0.7);
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: inset black 0px 0px 30px 30px;
+}
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.par {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 700px;
+    height: 500px;
+    box-shadow: rgb(145, 134, 118) 0px 0px 20px 5px;
+    border-radius: 10px;
+}
+h1 {
+    color: #DDBEBE;
+    text-shadow: #000 1px 1px;
+    text-shadow: rgb(243, 239, 239) 2px 2px;
+    text-shadow: #000 3px 3px;
+    font-size: 40px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+h2 {
+    color: #C89595;
+    font-size: 30px;
+    text-shadow: #000 1px 1px;
+    text-shadow: rgb(243, 239, 239) 2px 2px;
+    text-shadow: #000 3px 3px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.willBe {
+    text-align: center;
+    font-size: 25px;
+    color: #8CA1A5;
+    text-shadow: #000 0px 1px;
+    text-shadow: rgb(243, 239, 239) 1px 2px;
+    text-shadow: #000 0px 3px;
+    margin-bottom: 0px;
+    font-family: 'PT Serif', serif;}
+.choice {
+    color: #C89595;
+    font-size: 25px;
+    text-shadow: #000 1px 1px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.one {
+    background-color: #8CA1A5;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+}
+.two {
+    background-color: #C89595;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;}
+
+.study {
+    color: #fff;
+    text-shadow: black 0px 1px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+span {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* --------------------------- */
+
+@media all and (max-width: 1024px) {
+    #image {
+        width: 600px;
+        height: 400px;
+    }
+}
+@media all and (max-width: 800px) {
+    .top {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #image {
+        width: 650px;
+        height: 430px;
+    }
+}
+@media all and (max-width: 768px) {
+    .top {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #image {
+        width: 500px;
+        height: 300px;
+    }
+}
+@media all and (max-width: 600px) {
+    .top {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #image {
+        width: 470px;
+        height: 270px;
+    }
+}
+@media all and (max-width: 540px) {
+    .top {
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .choice, .willBe {
+        font-size: 18px;
+    }
+    #image {
+        width: 350px;
+        height: 200px;
+    }
+    .one, .two {
+        font-size: 15px;
+    }
+    .study {
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 414px) {
+    .top {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #image {
+        width: 340px;
+        height: 190px;
+    }
+} 
+@media all and (max-width: 384px) {
+    .top {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    #image {
+        width: 320px;
+        height: 175px;
+    }
+} 
+@media all and (max-width: 360px) {
+    .top {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    #image {
+        width: 320px;
+        height: 175px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .choice, .willBe {
+        font-size: 16px;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .top {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #image {
+        width: 280px;
+        height: 155px;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .choice, .willBe {
+        font-size: 16px;
+    }
+} 
+@media all and (max-width: 280px) {
+    .top {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    #image {
+        width: 250px;
+        height: 135px;
+    }
+   
+    .choice, .willBe {
+        font-size: 14px;
+    }
+    .study {
+        font-size: 9px;
+    }
+} 
+
